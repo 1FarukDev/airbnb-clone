@@ -1,6 +1,6 @@
 import React from 'react'
-import Airbnb from './Images/airbnb.png'
 import '../index.css'
+import {Airbnb} from '../Images'
 export default function Header(){
     return (
         <div className='header'>
