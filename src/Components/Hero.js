@@ -1,10 +1,10 @@
 import react from 'react'
-// import heroimg from '../Images/Heroimg.png'
+import heroimg from '../images/Heroimg.png'
 export default function Hero(){
     return(
         <div className='Hero--section'>
             <div className='Hero--img'>
-                <img src= ""/>
+                <img src={heroimg}/>
             </div>
             <h1 className='Hero--header'>
                 Online Experiences
