@@ -1,11 +1,10 @@
 import React from "react";
 export default function Card(props){
-    console.log(props.openSpots)
     return(
         
             <div className="card">
                 <div className="card--badge">SOLD OUT</div>
-            <img src={`/images/${props.Img}`} className="card--image" />
+            <img src={`/images/${props.img}`} className="card--image" />
             <div className="card--stats">
                 <img src="/images/star.png" className="card--star" />
                 <span>{props.rating}</span>
